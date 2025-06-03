@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Cálculo de Potencia Eléctrica</title>
+  <link rel="stylesheet" href="../styles/Style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Potencia Eléctrica</h1>
+    <p>Fórmulas: V = R × I y P = V × I</p>
+
+    <label for="resistencia">Resistencia (R en ohms):</label>
+    <input type="number" id="resistencia" placeholder="Ejemplo: 10" min="0" step="any">
+
+    <label for="corriente">Corriente (I en amperios):</label>
+    <input type="number" id="corriente" placeholder="Ejemplo: 2" min="0" step="any">
+
+    <button type="button" onclick="calcularPotencia()">Calcular</button>
+    <div id="resultado" class="resultado"></div>
+
+    <a class="link" href="../index.html">inicio</a>
+  </div>
+
+  <script src="../scripts/funciones1.js"></script>
+</body>
+</html>

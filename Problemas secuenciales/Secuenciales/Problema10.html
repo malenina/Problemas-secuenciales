@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Costo de una Llamada</title>
+  <link rel="stylesheet" href="../styles/Style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Costo de Llamada Telefónica</h2>
+    <p>Calcula el costo total según duración y tarifa por minuto.</p>
+
+    <label for="minutos">Duración (en minutos):</label>
+    <input type="number" id="minutos" placeholder="Ejemplo: 10" min="0" step="any">
+
+    <label for="costo">Costo por minuto:</label>
+    <input type="number" id="costo" placeholder="Ejemplo: 2.5" min="0" step="any">
+
+    <button type="button" onclick="calcularLlamada()">Calcular</button>
+    <div id="resultado" class="resultado"></div>
+
+    <a class="link" href="../index.html">inicio</a>
+  </div>
+
+  <script src="../scripts/funciones1.js"></script>
+</body>
+</html>
